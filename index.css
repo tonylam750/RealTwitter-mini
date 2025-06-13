@@ -20,7 +20,7 @@ body {
    
     width: 500px;
     height: 90vh;
-    background: linear-gradient(white);
+    background: white;
     overflow: auto;
 }
 
