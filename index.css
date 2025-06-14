@@ -22,7 +22,7 @@ body {
    
     max-width: 500px;
     width: 100%;
-    max-height: calc(var(--vh) * 90);
+    max-height: calc(var(--vh) *80);
     background: white;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
