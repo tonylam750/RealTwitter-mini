@@ -1,6 +1,14 @@
 import { tweetsData } from './data.js'
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
+function setVh() {
+  document.documentElement.style.setProperty(
+    '--vh', `${window.innerHeight * 0.01}px`
+  );
+}
+window.addEventListener('resize', setVh);
+setVh();
+
 document.addEventListener('click', function(e){
     if(e.target.dataset.like){
        handleLikeClick(e.target.dataset.like) 
